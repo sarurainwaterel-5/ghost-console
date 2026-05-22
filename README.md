@@ -105,7 +105,14 @@ ghost-console/
 
 # Screenshots
 
-(Add screenshots here)
+## Fastfetch
+![Fastfetch](screenshots/fastfetch.png)
+
+## OCI Inventory Tool
+![OCI Inventory Tool](screenshots/oci_inventory_tool.png)
+
+## VS Code Workspace
+![VS Code Workspace](screenshots/vscode_workspace.png)
 
 ---
 
@@ -121,41 +128,4 @@ ghost-console/
 
 # Author
 
-SaRu RainWater-El# Ghost Console
-# Screenshots
-
-## Fastfetch
-![Fastfetch](screenshots/Fastfetch.png)
-
-## OCI Inventory Tool
-![OCI Inventory Tool](screenshots/List_Instances.png)
-
-## VS Code Workspace
-![VS Code Workspace](screenshots/VSCode.png)
-Portable Linux cloud and network operations workstation built from salvaged enterprise hardware.
-
-## Hardware
-- Dell Latitude 7480
-- Intel i7-6600U
-- 16GB DDR4 RAM
-- Ubuntu Linux
-- External 1TB boot drive
-
-## Tooling
-- OCI CLI
-- Docker
-- GitHub SSH
-- Networking utilities
-- Linux terminal environment
-
-## Purpose
-Ghost Console is a portable infrastructure and cloud engineering workstation used for:
-- OCI automation
-- networking diagnostics
-- scripting
-- Docker workloads
-- infrastructure labs
-- cloud operations
-
-## Status
-Operational
+Carly Titus-El (Rain)
