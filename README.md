@@ -1,148 +1,48 @@
-# Ghost Console Beta+
+# Ghost Console
 
-Portable Linux cloud engineering workstation built from salvaged hardware.
+Ghost Console is a Linux-based cloud engineering and infrastructure automation workstation built on recovered enterprise hardware.
 
----
-
-# Overview
-
-Ghost Console is a rebuilt Dell Latitude 7480 transformed into a cloud automation and infrastructure engineering platform focused on:
-
-- Oracle Cloud Infrastructure (OCI)
-- Python automation
-- Terraform
-- Docker
-- Linux systems engineering
-- Networking diagnostics
+This project documents:
+- Ubuntu/Linux administration
+- OCI (Oracle Cloud Infrastructure) automation
+- Python infrastructure tooling
+- Git/GitHub workflows
+- cloud inventory reporting
+- operational monitoring
+- security hardening
 
 ---
 
-# Hardware
+# Features
 
-- Dell Latitude 7480
-- Intel i7-6600U
-- 20GB DDR4 RAM
-- Salvaged HP SSD
+- OCI Inventory Toolkit
+- Region-aware infrastructure reporting
+- CSV/JSON inventory exports
+- Rich CLI output
+- Linux workstation hardening
+- Python virtual environments
+- GitHub-integrated workflow
+- Cloud SDK automation
 
 ---
 
-# Software Stack
+# Technologies Used
 
 - Ubuntu Linux
-- OCI CLI
+- Python 3.14
 - OCI Python SDK
+- Git & GitHub
+- Rich
+- Typer
 - Terraform
 - Docker
 - VS Code
-- GitHub SSH
-- Wireshark
-- Nmap
-- tmux
-- htop
 
 ---
 
-# Stability Fixes
+# OCI Toolkit Commands
 
-Resolved Ubuntu graphical freezing by:
+Run inventory scan:
 
-- Disabling Wayland
-- Disabling Intel PSR:
-  `i915.enable_psr=0`
-
----
-
-# Current Projects
-
-## OCI Inventory Tool
-
-Python-based infrastructure inventory utility that:
-
-- Enumerates OCI compartments
-- Lists compute instances
-- Retrieves public IP addresses
-- Displays formatted terminal tables using Rich
-
----
-
-# Architecture Diagram
-
-```text
-                ┌────────────────────┐
-                │  Ghost Console     │
-                │ Ubuntu Linux       │
-                └─────────┬──────────┘
-                          │
-        ┌─────────────────┼─────────────────┐
-        │                 │                 │
- ┌──────▼──────┐   ┌──────▼──────┐   ┌──────▼──────┐
- │ Python SDK  │   │ Terraform   │   │ Networking  │
- │ OCI Scripts │   │ OCI Deploy  │   │ Diagnostics │
- └─────────────┘   └─────────────┘   └─────────────┘
-                          │
-                  ┌───────▼────────┐
-                  │ Oracle Cloud   │
-                  │ Infrastructure │
-                  └────────────────┘
-```
-
----
-
-# Repository Structure
-
-```text
-ghost-console/
-├── python/
-├── terraform/
-├── docker/
-├── networking/
-├── docs/
-├── screenshots/
-└── scripts/
-```
-
----
-
-# Screenshots
-
-## Fastfetch
-![Fastfetch](screenshots/fastfetch.png)
-
-## OCI Inventory Tool
-![OCI Inventory Tool](screenshots/oci_inventory_tool.png)
-
-## VS Code Workspace
-![VS Code Workspace](screenshots/vscode_workspace.png)
-
----
-
-## OCI Toolkit v2
-
-![OCI Toolkit v2](screenshots/OCI_Toolkit_v2.png)
-
----
-
-## OCI Toolkit v3
-
-![OCI Toolkit v3](screenshots/OCI_Toolkit_v3.png)
-
----
-
-## Export Reporting
-
-![Exports](screenshots/Exports.png)
----
-
-# Future Goals
-
-- OCI instance launcher
-- Terraform infrastructure deployment
-- Dockerized automation tooling
-- Monitoring dashboard
-- Multi-region inventory scanning
-
----
-
-# Author
-
-Carly Titus-El (Rain)
+```bash
+python main.py inventory
