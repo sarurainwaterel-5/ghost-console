@@ -1,0 +1,2 @@
+region,compartment,name,state,shape,public_ip
+us-phoenix-1,CloudNativeComp,DeveloperEnvironment2,RUNNING,VM.Standard.E2.1.Micro,141.148.172.156

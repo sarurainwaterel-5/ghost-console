@@ -1,0 +1,10 @@
+[
+    {
+        "region": "us-phoenix-1",
+        "compartment": "CloudNativeComp",
+        "name": "DeveloperEnvironment2",
+        "state": "RUNNING",
+        "shape": "VM.Standard.E2.1.Micro",
+        "public_ip": "141.148.172.156"
+    }
+]
