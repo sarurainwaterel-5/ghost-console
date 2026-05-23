@@ -1,0 +1,2 @@
+name,state,shape,region,public_ip
+DeveloperEnvironment2,RUNNING,VM.Standard.E2.1.Micro,us-phoenix-1,141.148.172.156

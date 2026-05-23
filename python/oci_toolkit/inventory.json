@@ -1,0 +1,9 @@
+[
+    {
+        "name": "DeveloperEnvironment2",
+        "state": "RUNNING",
+        "shape": "VM.Standard.E2.1.Micro",
+        "region": "us-phoenix-1",
+        "public_ip": "141.148.172.156"
+    }
+]
