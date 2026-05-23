@@ -116,6 +116,23 @@ ghost-console/
 
 ---
 
+## OCI Toolkit v2
+
+![OCI Toolkit v2](screenshots/OCI_Toolkit_v2.png)
+
+---
+
+## OCI Toolkit v3
+
+![OCI Toolkit v3](screenshots/OCI_Toolkit_v3.png)
+
+---
+
+## Export Reporting
+
+![Exports](screenshots/Exports.png)
+---
+
 # Future Goals
 
 - OCI instance launcher
