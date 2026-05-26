@@ -1,2 +1,7 @@
 backups/
-venv/backups/
+venv/
+__pycache__/
+*.pyc
+.env
+exports/
+
