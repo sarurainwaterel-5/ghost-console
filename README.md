@@ -46,3 +46,26 @@ Run inventory scan:
 
 ```bash
 python main.py inventory
+---
+
+## Live Infrastructure Monitor
+
+![Live Monitor](screenshots/Live_Monitor.png)
+
+---
+
+## OCI Multi-Region Inventory
+
+![Cloud Inventory](screenshots/Cloud_Inventory.png)
+
+---
+
+## OCI Networking Inventory
+
+![Networking Inventory](screenshots/Networking_Inventory.png)
+
+---
+
+## Operational Status Dashboard
+
+![Operational Status](screenshots/Operational_Status.png)
